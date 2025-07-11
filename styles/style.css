@@ -90,9 +90,9 @@
 .joined-section{
     width: 1140px;
     height: 406px;
-    background-color: aqua;
+    background-color:#4d47ff1e;
     margin: 116px 760px;
-    /* margin: 50px 142px 50px 142px; */
+    border-radius: 20px;
 }
 .joined-paragraph{
     padding-top: 50px;
@@ -113,12 +113,20 @@
 /* rating section style */
 .rating-section{
     width: 1140px;
-    height: 342px;
-    background-color: aqua;
+    height: 442px;
+    /* background-color: aqua; */
     margin: 0 auto;
+}
+.rating-card-item{
+    width:366px ;
+    height:243px ;
+    background-color: white;
+    text-align: center;
+    padding: 20px;
 }
 .rating-card-container{
     display: flex;
+    gap: 25px;
 }
 .rating-heading{
     font-weight: bold;
@@ -135,12 +143,44 @@
     background-color: aqua;
     margin: 0 auto;
 }
+.focus-header{
+    font-weight:bold ;
+    font-size: 50px;
+    width: 516px;
+    height: 60px;
+}
 /* form section style */
 .form-section{
     width:1140px ;
     height:632px ;
     background-color: aqua;
     margin: 0 auto;
+    margin-top: 90px;
+}
+.form-container{
+    display: flex;
+   
+}
+.email-section{
+    width: 497px;
+    height: 102px;
+    font-size: larger;
+}
+.form-label{
+     width: 497px;
+    height:490px;
+}
+.form-heading{
+    width:528px ;
+    height:232px ;
+    font-weight: bold;
+    font-size: 97px;
+}
+.form-btn{
+    width: 497px;
+    height: 62px;
+    background-color: #4E47FF;
+    /* color: white; */
 }
 /* footer section style */
 .footer-section{
@@ -148,4 +188,27 @@
     height:428px ;
     background-color: aqua;
     margin: auto;
+}
+.footer-head{
+    width: 291px;
+    height: 121px;
+    font-size: 100px;
+    font-weight: bolder;
+    margin-left: 530px;
+    padding-top: 150px;
+    color: #4E47FF;
+}
+.header-paragraph{
+    /* text-align: center; */
+    margin-left: 200px;
+}
+footer p {
+    text-align: center;
+    font-size: large;
+    color: #8987A1;
+}
+.footer-anchor{
+    text-align: center;
+    font-size: large;
+    justify-content: space-between
 }
