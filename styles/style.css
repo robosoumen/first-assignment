@@ -89,20 +89,26 @@
 /* joined section style */
 .joined-section{
     width: 1140px;
-    height: 306px;
+    height: 406px;
     background-color: aqua;
     margin: 116px 760px;
     /* margin: 50px 142px 50px 142px; */
+}
+.joined-paragraph{
+    padding-top: 50px;
 }
 .view-section{
     display: flex;
     justify-content: space-around;
 }
 .view{
-    width:162px ;
-    height:97px ;
     font-weight:bold ;
     font-size:80px ;
+    margin-bottom: 12px;
+    color: #4E47Ff;
+}
+.view-p{
+    padding-bottom: 400px;
 }
 /* rating section style */
 .rating-section{
