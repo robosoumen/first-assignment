@@ -5,6 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>web-flow-A01</title>
     <link rel="stylesheet" href="styles/style.css">
+    <style>
+        #touch-btn{
+            width: 400px;
+            height: 60px;
+            color: red;
+            background-color: #4642AA;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -52,15 +60,19 @@
             <p class="rating-heading">What our users say</p>
             <div class="rating-card-container">
                 <div class="rating-card-item">
+                    <div>
+                        <img src="Assets/icon-star.png" alt="">
                     <img src="Assets/icon-star.png" alt="">
                     <img src="Assets/icon-star.png" alt="">
                     <img src="Assets/icon-star.png" alt="">
                     <img src="Assets/icon-star.png" alt="">
-                    <img src="Assets/icon-star.png" alt="">
+                    </div>
                     <h1>Loved by Designers</h1>
                     <p>This template instantly leveled up our presence.” Studio Vertex</p>
                     <div class="rating-image">
-                        <img src="Assets/avatar.png" alt="">
+                        <div>
+                            <img src="Assets/avatar.png" alt="">
+                        </div>
                        <div>
                          <h4>Reviewer name</h4>
                         <p>date</p>
@@ -76,7 +88,9 @@
                     <h2>Loved by Designers</h2>
                     <p>This template instantly leveled up our presence.” Studio Vertex</p>
                     <div class="rating-image">
-                        <img src="Assets/avatar.png" alt="">
+                        <div>
+                            <img src="Assets/avatar.png" alt="">
+                        </div>
                         <div>
                             <h4>Reviewer name</h4>
                         <p>date</p>
@@ -92,7 +106,9 @@
                     <h2>Loved by Designers</h2>
                     <p>This template instantly leveled up our presence.” Studio Vertex</p>
                     <div class="rating-image">
-                        <img src="Assets/avatar.png" alt="">
+                       <div>
+                            <img src="Assets/avatar.png" alt="">
+                        </div>
                         <div>
                             <h4>Reviewer name</h4>
                         <p>date</p>
@@ -111,28 +127,31 @@
 
         </section>
         <section class="form-section">
-            <div class="form-container">
-                <h1 class="form-heading">Let’s Get in Touch</h1>
-                <div class="form-label">
-                    <div class="email-section">
-                        <label for="email">email</label>
-                    <input placeholder="your email" type="email" name="" id="email">
-                    </div>
-
-                    <div class="name-section">
-                        <label for="your name ">name</label>
-                    <input placeholder="your name" type="text" name="" id="your name">
-                    </div>
-
-                    <div class="textarea-section">
-                         <label for="massage">massage</label>
-                    <textarea placeholder="write your massage" name="" id="massage" cols="30" rows="10"></textarea>
-                    </div>
-
-                    <button class="form-btn"><a href="">Get in Touch</a></button>
-                   
-                </div>
-            </div> 
+         <div>
+             <h1>Let’s Get in <br> Touch</h1>
+         </div>
+          <div>
+             <form class="form-label">
+            <div class="form-email">
+                <label for="email">your email</label>
+                <input placeholder="write your email here" type="email" name="" id="email">
+            </div>
+            <br>
+            <div>
+                <label for="name">your name</label>
+                <input placeholder="write your name here" type="text" name="" id="name">
+            </div>
+            <br>
+            <div>
+                <label for="textarea">massage</label>
+                <textarea name="" id="textarea" cols="30" rows="10"></textarea>
+            </div>
+            <br>
+                <button>
+                    <a id="touch-btn" href="">Get in Touch</a>
+                </button>
+           </form>
+          </div>
         </section>
     </main>
     <footer class="footer-section">

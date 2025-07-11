@@ -121,7 +121,6 @@
     width:366px ;
     height:243px ;
     background-color: white;
-    text-align: center;
     padding: 20px;
 }
 .rating-card-container{
@@ -135,6 +134,10 @@
 }
 .rating-image{
     display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    align-items: center;
+
 }
 /* focus section style */
 .focus-section{
@@ -156,32 +159,33 @@
     background-color: aqua;
     margin: 0 auto;
     margin-top: 90px;
-}
-.form-container{
     display: flex;
-   
 }
-.email-section{
-    width: 497px;
-    height: 102px;
-    font-size: larger;
-}
-.form-label{
-     width: 497px;
-    height:490px;
-}
-.form-heading{
-    width:528px ;
-    height:232px ;
+/* .form-heading{
     font-weight: bold;
     font-size: 97px;
+    margin-top: 100px;
 }
-.form-btn{
-    width: 497px;
-    height: 62px;
-    background-color: #4E47FF;
-    /* color: white; */
+.form-email{
+    font-size: large;
+    font-weight: bolder;
+  
 }
+input[type=email]{
+    width: 100%;
+  padding: 12px 20px;
+  margin-top: 50px;
+}
+input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+  margin: 8px;
+}
+.form-label{
+    width:497px ;
+    height:490px ;
+} */
+
 /* footer section style */
 .footer-section{
     width:1440px ;
