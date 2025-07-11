@@ -1,4 +1,8 @@
-/* mainstyle */
+/* body */
+.whole-body{
+    background-color: #4d47ff18;
+}
+/* main style */
 .main-class{
     display: flex;
     flex-direction: column;
@@ -8,7 +12,7 @@
 .header-section{
     width: 1440px;
     height: 698px;
-    /* background-color: aqua; */
+    background-color: aqua;
     background-image: url("../Assets/Hero-bg.png");
     margin: 0 auto;
 }
@@ -149,8 +153,12 @@
 .focus-section{
     width:1140px ;
     height: 696px;
-    background-color: aqua;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin: 0 auto;
+    gap: 10px;
 }
 .focus-header{
     font-weight:bold ;
@@ -158,11 +166,26 @@
     width: 516px;
     height: 60px;
 }
+.focus-btn{
+   width: 195px;
+   height: 48px;
+   font-size: 20px;
+   font-weight: bold;
+   background-color: #4E47FF;
+   color: white;
+   border-radius: 10px;
+   border: none;
+}
+
+   
+.focus-paragraph{
+    color: #000000;
+}
 /* form section style */
 .form-section{
     width:1140px ;
     height:632px ;
-    background-color: aqua;
+   /* background-color: white; */
     margin: 0 auto;
     margin-top: 90px;
     display: flex;
@@ -192,13 +215,30 @@
     color: black;
     font-size: large;
 }
+.form-head{
+    width: 528px;
+    height: 232px;
+    font-size:97px ;
+    font-weight: bold;
+
+}
+.touch-btn{
+        font-size: large;
+        background-color: #4E47FF;
+        font-weight: 600;
+        color: white;
+        width: 200px;
+        height: 50px;
+        border-radius: 10px;
+        border: none;
+       }
 
 
 /* footer section style */
 .footer-section{
     width:1440px ;
     height:428px ;
-    background-color: aqua;
+    background-color: white;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -214,6 +254,17 @@
     justify-content: space-around;
     width: 50%;
     margin: 10px auto;
-
-
+}
+.footer-head{
+    width: 291px;
+    height: 121px;
+    font-size: 100px;
+    color: #4E47FF;
+}
+.footer-anchor:hover{
+    font-size: larger;
+}
+.footer-paragraph{
+    font-size: large;
+    color: #8987A1;
 }

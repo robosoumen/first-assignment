@@ -6,15 +6,10 @@
     <title>web-flow-A01</title>
     <link rel="stylesheet" href="styles/style.css">
     <style>
-        #touch-btn{
-            width: 400px;
-            height: 60px;
-            color: red;
-            background-color: #4642AA;
-        }
+       
     </style>
 </head>
-<body>
+<body class="whole-body">
     <header>
         <section class="header-section">
             <nav class="nav-section">
@@ -120,15 +115,23 @@
 
         </section>
         <section class="focus-section">
-            <h class="focus-header">Ready to focus better</h1>
-            <p>This template instantly leveled up our presence.” - Studio Vertex</p>
-            <button>Ger Started Free</button>
-            <img src="Assets/wc-big.png" alt="">
+            <div class="focus-header">
+                <h>Ready to focus better</h1>
+            </div>
+            <div class="focus-paragraph">
+                <p>This template instantly leveled up our presence.” - Studio Vertex</p>
+            </div>
+            <div>
+                <button class="focus-btn">get started free</button>
+            </div>
+            <div class="focus-image">
+                <img src="Assets/wc-big.png" alt="">
+            </div>
 
         </section>
         <section class="form-section">
          <div class="left-form-section">
-             <h1>Let’s Get in <br> Touch</h1>
+             <h1 class="form-head">Let’s Get in <br> Touch</h1>
          </div>
         <div class="right-form-section">
              <form class="form-label">
@@ -144,12 +147,12 @@
                 
                 <div class="form-container">
                     <label for="textarea">massage</label>
-                    <textarea name="" id="textarea" cols="30" rows="10"></textarea>
+                    <textarea placeholder="write your massage" name="" id="textarea" cols="30" rows="10"></textarea>
                 </div>
                 
                 <div>
-                    <button>
-                        <a id="touch-btn" href="">Get in Touch</a>
+                    <button class="touch-btn">
+                        <a style="color: white;" href="">Get in Touch</a>
                     </button>
                 </div>
              </form>
