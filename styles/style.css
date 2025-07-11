@@ -68,7 +68,7 @@
     /* background-color: aqua; */
     width: 1140px;
     height: 328px;
-    margin: 116px 60px;
+    margin: 116px 60px 0px 60px;
     justify-content: space-between;
     border-radius: 10px;
 }
@@ -101,7 +101,7 @@
     width: 1140px;
     height: 406px;
     background-color:#4d47ff1e;
-    margin: 116px 60px;
+    margin: 116px 60px 0px 60px;
     border-radius: 20px;
 }
 .joined-paragraph{
@@ -158,7 +158,9 @@
     flex-direction: column;
     align-items: center;
     margin: 0 auto;
+    margin-top: 116px;
     gap: 10px;
+    padding: 20px;
 }
 .focus-header{
     font-weight:bold ;
@@ -187,7 +189,6 @@
     height:632px ;
    /* background-color: white; */
     margin: 0 auto;
-    margin-top: 90px;
     display: flex;
     justify-content: space-around;
     align-items: center;
