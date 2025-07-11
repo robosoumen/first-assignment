@@ -1,3 +1,9 @@
+/* mainstyle */
+.main-class{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
 /* header section style */
 .header-section{
     width: 1440px;
@@ -160,31 +166,33 @@
     margin: 0 auto;
     margin-top: 90px;
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+
 }
-/* .form-heading{
-    font-weight: bold;
-    font-size: 97px;
-    margin-top: 100px;
+.left-form-section{
+    width: 50%;
 }
-.form-email{
-    font-size: large;
-    font-weight: bolder;
-  
-}
-input[type=email]{
-    width: 100%;
-  padding: 12px 20px;
-  margin-top: 50px;
-}
-input[type=text]{
-    width: 100%;
-    padding: 12px 20px;
-  margin: 8px;
+.right-form-section{
+    width: 30%;
 }
 .form-label{
-    width:497px ;
-    height:490px ;
-} */
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.form-container label{
+    color: black;
+    font-size: large;
+}
+
 
 /* footer section style */
 .footer-section{
@@ -192,27 +200,20 @@ input[type=text]{
     height:428px ;
     background-color: aqua;
     margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 40px;
+
 }
-.footer-head{
-    width: 291px;
-    height: 121px;
-    font-size: 100px;
-    font-weight: bolder;
-    margin-left: 530px;
-    padding-top: 150px;
-    color: #4E47FF;
-}
-.header-paragraph{
-    /* text-align: center; */
-    margin-left: 200px;
-}
-footer p {
-    text-align: center;
-    font-size: large;
-    color: #8987A1;
-}
+
 .footer-anchor{
-    text-align: center;
-    font-size: large;
-    justify-content: space-between
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    margin: 10px auto;
+
+
 }
